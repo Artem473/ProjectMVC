@@ -20,13 +20,13 @@ public class Controller{
         if (!str.isEmpty()&& !str1.isEmpty()){
             labelHello.setText("Вы зарегистриванны");
         }
-        if (!str.isEmpty()&& !str1.isEmpty()){
+        if (!str.isEmpty()&& str1.isEmpty()){
             labelHello.setText("Введите Email");
         }
         if (str.isEmpty()&& !str1.isEmpty()){
             labelHello.setText("Введите Имя");
         }
-        if (str.isEmpty()&& !str1.isEmpty()){
+        if (str.isEmpty()&& str1.isEmpty()){
             labelHello.setText("Введите Имя и Email");
         }
     }
